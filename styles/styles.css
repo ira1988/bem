@@ -171,6 +171,7 @@ body {
 .header__navigation{
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 
