@@ -174,14 +174,6 @@ body {
 }
 
 
-
-
-.nav-list,.contacts-list {
-  display: flex;
-  align-items: center;
-}
-
-
 .nav-list__item:not(:last-child),
 .nav-contacts-list__item:not(:last-child) {
   margin-right: 50px;
@@ -230,9 +222,6 @@ margin-bottom: -1px;
   background-color: var(--accent-color);
  
   transition: background var(--transition);
-}
-.contacts-list--left {
-  margin-left: auto;
 }
 
 .contacts-list__link{
