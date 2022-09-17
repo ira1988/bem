@@ -1,11 +1,11 @@
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--team-color);
+  background-color: var( --team-section-color);
 }
 
 .team-list__item {
-  background-color: var(--white);
+  background-color:var(--team-list-color) ;
   text-align: center;
   width:270px;
 }
@@ -40,9 +40,10 @@
 .social-list__link--light{
   color: var(--link-color);
   background-color: var(--link-backgound);
-}
-.social-list__link--light:hover,
-.social-list__link--ligh:focus {
+  
+  &:hover,
+  &:focus {
   color: var(--link-active-color-text);
   background-color: var(--accent-color);
+}
 }

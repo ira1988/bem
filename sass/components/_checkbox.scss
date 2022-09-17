@@ -16,22 +16,22 @@ border: 1px solid #212121;
 }
 .custom-checkbox-icon{
   display:none;
-
- 
 }  
-.checkbox-origin:checked + .custom-checkbox{
+.checkbox-origin{
+  appearance: none;
+
+  &:checked + .custom-checkbox{
 border:solid var(--accent-color);
   background-color:var(--accent-color);
 
 }
-.checkbox-origin:checked + .custom-checkbox .custom-checkbox-icon{
-  display: block;
- 
-}
-.checkbox-origin:focus + .custom-checkbox{
+
+&:focus + .custom-checkbox{
   box-shadow: 0 0 0 1px var(--accent-color);
 }
 
-.checkbox-origin{
-  appearance: none;
+&:checked +.custom-checkbox-icon{
+  display: block;
+ 
+}
 }
